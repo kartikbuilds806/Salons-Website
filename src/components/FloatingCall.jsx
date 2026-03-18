@@ -5,7 +5,7 @@ import './FloatingCall.css';
 const FloatingCall = () => {
     return (
         <a
-            href="tel:+9107500887353"
+            href="tel:+9106398412288"
             className="floating-call"
             aria-label="Call us now"
         >

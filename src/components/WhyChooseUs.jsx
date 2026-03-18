@@ -1,14 +1,16 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Award, Clock, HeartHandshake, ShieldCheck } from 'lucide-react';
+import { Award, Clock, HeartHandshake, ShieldCheck, Sparkles, UserCheck } from 'lucide-react';
 import teamImg from '../assets/why-choose-us/Team.webp';
 import './WhyChooseUs.css';
 
 const features = [
-    { icon: <Award size={40} />, title: "Expert Stylists", text: "Years of experience and professional training." },
-    { icon: <ShieldCheck size={40} />, title: "Premium Products", text: "We use only top-tier, skin-safe brands." },
-    { icon: <HeartHandshake size={40} />, title: "Personalized Care", text: "Every treatment tailored to your unique needs." },
-    { icon: <Clock size={40} />, title: "Timely Service", text: "Your time is precious; we respect your schedule." }
+    { icon: <Award size={40} />, title: "Experienced and skilled staff", text: "" },
+    { icon: <ShieldCheck size={40} />, title: "Hygienic and clean environment", text: "" },
+    { icon: <HeartHandshake size={40} />, title: "Friendly customer service", text: "" },
+    { icon: <Clock size={40} />, title: "Affordable pricing", text: "" },
+    { icon: <Sparkles size={40} />, title: "Latest beauty treatments", text: "" },
+    { icon: <UserCheck size={40} />, title: "Personalized care", text: "" }
 ];
 
 const WhyChooseUs = () => {
@@ -23,9 +25,9 @@ const WhyChooseUs = () => {
                         viewport={{ once: true }}
                         transition={{ duration: 0.6 }}
                     >
-                        <h2>Why Choose Stylish Mahi Makeover?</h2>
+                        <h2>Why Choose Riddhi Makeover Unisex Salon?</h2>
                         <p>
-                            We believe in more than just beauty treatments; we believe in transformations that boost your confidence. Our dedicated team of experts ensures you leave feeling radiant and revitalized.
+                            We focus on giving every client a comfortable experience with professional results.
                         </p>
                         <div className="features-grid">
                             {features.map((item, idx) => (

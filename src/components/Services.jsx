@@ -14,37 +14,37 @@ const servicesData = [
     {
         icon: <Star size={24} />,
         title: 'Bridal Makeup',
-        description: 'Complete bridal transformation ensuring glowing perfection for your most special day.',
+        description: 'Bridal and party makeup',
         image: imgBridal
     },
     {
         icon: <Sparkles size={24} />,
-        title: 'Party Makeup',
-        description: 'Glamorous and long-lasting looks tailored to complement your outfit and occasion.',
+        title: 'Party & Engagement Makeup',
+        description: 'Stunning party and engagement makeup',
         image: imgParty
     },
     {
         icon: <Scissors size={24} />,
-        title: 'Hair Styling',
-        description: 'Expert cuts, blowouts, and advanced styling to enhance your facial features.',
+        title: 'Hair Styling & Cutting',
+        description: 'Expert hair styling and cutting',
         image: imgHair
     },
     {
         icon: <Droplets size={24} />,
-        title: 'Hair Color & Spa',
-        description: 'Premium coloring techniques, highlights, and deep strengthening spa treatments.',
+        title: 'Hair Treatments',
+        description: 'Hair spa, keratin, smoothing, botox treatment',
         image: imgColor
     },
     {
         icon: <UserPlus size={24} />,
-        title: 'Skin Treatments',
-        description: 'Rejuvenating facials, cleanup, and advanced skin rituals for a flawless glow.',
+        title: 'Skin Care',
+        description: 'O+3 facial, vitamin C facial, gold facial',
         image: imgSkin
     },
     {
         icon: <Heart size={24} />,
         title: 'Nail Art & Extensions',
-        description: 'Beautiful gel extensions, acrylics, and creative nail art for elegant hands.',
+        description: 'Nail extensions and nail art',
         image: imgNails
     }
 ];
@@ -110,7 +110,7 @@ const Services = () => {
                                 <h3 className="service-title">{service.title}</h3>
                                 <p className="service-desc">{service.description}</p>
                                 <a
-                                    href={`https://wa.me/9107500887353?text=Hi,%20I%20am%20interested%20in%20the%20${service.title}%20service.`}
+                                    href={`https://wa.me/9106398412288?text=Hi,%20I%20am%20interested%20in%20the%20${service.title}%20service.`}
                                     className="btn btn-outline service-btn"
                                     target="_blank"
                                     rel="noopener noreferrer"

@@ -5,18 +5,18 @@ import './Testimonials.css';
 
 const reviews = [
     {
-        name: "Priya Sharma",
-        text: "Absolutely loved my bridal makeup! The team made me feel so special and the look lasted perfectly all day.",
+        name: "Kshitij Kukreti",
+        text: "Quiet comfortable and well skilled staff. The owner was very nice.",
         rating: 5
     },
     {
-        name: "Anjali Gupta",
-        text: "Best salon in town for hair color and spa. The stylists are very professional and genuinely care about hair health.",
+        name: "Preeti Virmani",
+        text: "Best service for hair colour, kerasmooth treatment and facial.",
         rating: 5
     },
     {
-        name: "Meera R.",
-        text: "Got a party makeup and hair styling done here. Received so many compliments! Highly recommend for their personalized approach.",
+        name: "Sakshi Rawat",
+        text: "Had my layered haircut done beautifully. Great experience.",
         rating: 5
     }
 ];

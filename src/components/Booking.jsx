@@ -5,10 +5,10 @@ import './Booking.css';
 
 const servicesList = [
     "Bridal Makeup",
-    "Party Makeup",
-    "Hair Styling",
-    "Hair Color & Spa",
-    "Skin Treatments",
+    "Party & Engagement Makeup",
+    "Hair Styling & Cutting",
+    "Hair Treatments",
+    "Skin Care",
     "Nail Art & Extensions",
     "Other Query"
 ];
@@ -47,9 +47,9 @@ const Booking = () => {
     const handleSubmit = (e) => {
         e.preventDefault();
         const { name, phone, service, date, time } = formData;
-        const message = `Hello Stylish Mahi! I would like to book an appointment.\n\nName: ${name}\nPhone: ${phone}\nService: ${service}\nDate: ${date}\nTime: ${time}`;
+        const message = `Hello Riddhi Makeover! I would like to book an appointment.\n\nName: ${name}\nPhone: ${phone}\nService: ${service}\nDate: ${date}\nTime: ${time}`;
         const encodedMessage = encodeURIComponent(message);
-        window.open(`https://wa.me/9107500887353?text=${encodedMessage}`, '_blank');
+        window.open(`https://wa.me/9106398412288?text=${encodedMessage}`, '_blank');
     };
 
     return (
@@ -64,8 +64,8 @@ const Booking = () => {
                         transition={{ duration: 0.6 }}
                     >
                         <div className="booking-header">
-                            <h2>Reserve Your Experience</h2>
-                            <p>Book your personalized makeover session in our luxury studio.</p>
+                            <h2>Book your appointment today</h2>
+                            <p>Get special offers on bridal and hair treatments. Book your personalized makeover session in our luxury studio.</p>
                         </div>
 
                         <form onSubmit={handleSubmit} className="premium-form">
