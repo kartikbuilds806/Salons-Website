@@ -51,9 +51,9 @@ const WhyChooseUs = () => {
                     >
                         <img
                             src={teamImg}
-                            alt="Salon environment"
+                            alt="Salon Premium Environment"
                             loading="lazy"
-                            style={{ width: '100%', height: 'auto', objectFit: 'cover' }}
+                            style={{ width: '100%', height: 'auto', objectFit: 'cover', borderRadius: '1.5rem', boxShadow: '0 15px 35px rgba(0,0,0,0.1)' }}
                         />
                         <div className="experience-badge">
                             <span className="number">15+</span>
