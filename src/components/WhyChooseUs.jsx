@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Award, Clock, HeartHandshake, ShieldCheck } from 'lucide-react';
+import teamImg from '../assets/Why Choose Us/Team.webp';
 import './WhyChooseUs.css';
 
 const features = [
@@ -47,7 +48,7 @@ const WhyChooseUs = () => {
                         transition={{ duration: 0.6 }}
                     >
                         <img
-                            src="https://images.unsplash.com/photo-1522337660859-02fbefca4702?w=600&h=800&fit=crop"
+                            src={teamImg}
                             alt="Salon environment"
                             loading="lazy"
                         />
