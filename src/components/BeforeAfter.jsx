@@ -4,13 +4,13 @@ import './BeforeAfter.css';
 
 const transformations = [
     {
-        before: 'https://images.unsplash.com/photo-1595152772835-219674b2a8a6?w=600&h=600&fit=crop',
-        after: 'https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=600&h=600&fit=crop',
+        before: 'https://images.unsplash.com/photo-1515377905703-c4788e51af15?auto=format&fit=crop&q=80&w=600',
+        after: 'https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?auto=format&fit=crop&q=80&w=600',
         label: 'Bridal Makeup'
     },
     {
-        before: 'https://images.unsplash.com/photo-1605497788044-5a32c7078486?w=600&h=600&fit=crop',
-        after: 'https://images.unsplash.com/photo-1560066984-138dadb4c035?w=600&h=600&fit=crop',
+        before: 'https://images.unsplash.com/photo-1527799820374-dcf8d9d4a3fa?auto=format&fit=crop&q=80&w=600',
+        after: 'https://images.unsplash.com/photo-1560066984-138dadb4c035?auto=format&fit=crop&q=80&w=600',
         label: 'Hair Coloring'
     }
 ];

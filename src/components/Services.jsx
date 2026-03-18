@@ -3,49 +3,42 @@ import { motion } from 'framer-motion';
 import { Sparkles, Scissors, Droplets, Star, UserPlus, Heart } from 'lucide-react';
 import './Services.css';
 
-import imgBridal from '../assets/Services/Bridal Makeup.webp';
-import imgParty from '../assets/Services/party_makup.webp';
-import imgHair from '../assets/Services/Hair styling.webp';
-import imgColor from '../assets/Services/Hair  color.webp';
-import imgSkin from '../assets/Services/skin treatment.webp';
-import imgNails from '../assets/Services/nails art and extension.webp';
-
 const servicesData = [
     {
         icon: <Star size={24} />,
         title: 'Bridal Makeup',
         description: 'Bridal and party makeup',
-        image: imgBridal
+        image: 'https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?auto=format&fit=crop&q=80&w=800'
     },
     {
         icon: <Sparkles size={24} />,
         title: 'Party & Engagement Makeup',
         description: 'Stunning party and engagement makeup',
-        image: imgParty
+        image: 'https://images.unsplash.com/photo-1516975080661-46bcaeb811b0?auto=format&fit=crop&q=80&w=800'
     },
     {
         icon: <Scissors size={24} />,
         title: 'Hair Styling & Cutting',
         description: 'Expert hair styling and cutting',
-        image: imgHair
+        image: 'https://images.unsplash.com/photo-1560066984-138dadb4c035?auto=format&fit=crop&q=80&w=800'
     },
     {
         icon: <Droplets size={24} />,
         title: 'Hair Treatments',
         description: 'Hair spa, keratin, smoothing, botox treatment',
-        image: imgColor
+        image: 'https://images.unsplash.com/photo-1522337660859-02fbefca4702?auto=format&fit=crop&q=80&w=800'
     },
     {
         icon: <UserPlus size={24} />,
         title: 'Skin Care',
         description: 'O+3 facial, vitamin C facial, gold facial',
-        image: imgSkin
+        image: 'https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&q=80&w=800'
     },
     {
         icon: <Heart size={24} />,
         title: 'Nail Art & Extensions',
         description: 'Nail extensions and nail art',
-        image: imgNails
+        image: 'https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&q=80&w=800'
     }
 ];
 
