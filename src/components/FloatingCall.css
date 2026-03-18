@@ -1,0 +1,57 @@
+.floating-call {
+    position: fixed;
+    bottom: 105px;
+    right: 30px;
+    width: 60px;
+    height: 60px;
+    background-color: var(--color-primary-dark);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+    z-index: 9999;
+    transition: transform var(--transition-normal);
+    animation: pulse-call 2s infinite;
+    color: var(--color-white);
+}
+
+.floating-call:hover {
+    transform: scale(1.1);
+    animation: none;
+    color: var(--color-white);
+}
+
+.call-icon {
+    width: 32px;
+    height: 32px;
+}
+
+@keyframes pulse-call {
+    0% {
+        box-shadow: 0 0 0 0 rgba(181, 131, 90, 0.7);
+    }
+
+    70% {
+        box-shadow: 0 0 0 15px rgba(181, 131, 90, 0);
+    }
+
+    100% {
+        box-shadow: 0 0 0 0 rgba(181, 131, 90, 0);
+    }
+}
+
+@media (max-width: 768px) {
+    .floating-call {
+        bottom: 80px;
+        /* Above whatsapp button on mobile which is at 20px */
+        right: 20px;
+        width: 50px;
+        height: 50px;
+    }
+
+    .call-icon {
+        width: 26px;
+        height: 26px;
+    }
+}
