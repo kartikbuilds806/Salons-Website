@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Award, Clock, HeartHandshake, ShieldCheck, Sparkles, UserCheck } from 'lucide-react';
-const teamImg = 'https://images.unsplash.com/photo-1582090227183-4aeb351ecf2a?auto=format&fit=crop&q=80&w=800';
+import teamImg from '../assets/why-choose-us/Team.webp';
 import './WhyChooseUs.css';
 
 const features = [

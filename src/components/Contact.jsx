@@ -38,7 +38,7 @@ const Contact = () => {
                             <div className="icon-wrapper"><MapPin size={24} /></div>
                             <div>
                                 <h4>Our Location</h4>
-                                <p>123 Fashion Street, Near City Center,<br />Downtown, Metropolis-100001</p>
+                                <p>Thapdiyal Department Store, Near Abhinandan Wedding Point,<br />Balawala Road, Ranjhawala, Raipur Of, Dehradun-248008, Uttarakhand</p>
                             </div>
                         </div>
 
@@ -54,7 +54,7 @@ const Contact = () => {
                             <div className="icon-wrapper"><Mail size={24} /></div>
                             <div>
                                 <h4>Email Address</h4>
-                                <p><a href="mailto:hello@premium-salon-demo.com">hello@premium-salon-demo.com</a></p>
+                                <p><a href="mailto:hello@stylishmahi.com">hello@stylishmahi.com</a></p>
                             </div>
                         </div>
 
@@ -75,14 +75,14 @@ const Contact = () => {
                         transition={{ duration: 0.6 }}
                     >
                         <iframe
-                            src="https://maps.google.com/maps?q=New+York&t=&z=15&ie=UTF8&iwloc=&output=embed"
+                            src="https://maps.google.com/maps?q=Thapdiyal+Department+Store,+Balawala+Road,+Dehradun,+Uttarakhand+248008&t=&z=15&ie=UTF8&iwloc=&output=embed"
                             width="100%"
                             height="100%"
                             style={{ border: 0 }}
                             allowFullScreen=""
                             loading="lazy"
                             referrerPolicy="no-referrer-when-downgrade"
-                            title="Salon Location"
+                            title="Stylish Mahi Location"
                         ></iframe>
                     </motion.div>
                 </div>

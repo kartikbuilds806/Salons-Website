@@ -2,13 +2,15 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import './Gallery.css';
 
+import img1 from '../assets/New folder/Our gallery Makeover area.webp';
+import img2 from '../assets/New folder/ourgallery_2nd.webp';
+import img3 from '../assets/New folder/ourgallery_3rdimage.webp';
+import img4 from '../assets/New folder/ourgllery_4thimage.webp';
+import img5 from '../assets/New folder/ourgallery_5thimage.webp';
+import img6 from '../assets/New folder/ourgallery_6thimage.webp';
+
 const galleryImages = [
-    'https://images.unsplash.com/photo-1560066984-138dadb4c035?auto=format&fit=crop&q=80&w=800',
-    'https://images.unsplash.com/photo-1522337660859-02fbefca4702?auto=format&fit=crop&q=80&w=800',
-    'https://images.unsplash.com/photo-1527799820374-dcf8d9d4a3fa?auto=format&fit=crop&q=80&w=800',
-    'https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&q=80&w=800',
-    'https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&q=80&w=800',
-    'https://images.unsplash.com/photo-1600948836101-f9ff09d1e396?auto=format&fit=crop&q=80&w=800'
+    img1, img2, img3, img4, img5, img6
 ];
 
 const Gallery = () => {
