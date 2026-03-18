@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Award, Clock, HeartHandshake, ShieldCheck } from 'lucide-react';
-import teamImg from '../assets/Why Choose Us/Team.webp';
+import teamImg from '../assets/why-choose-us/Team.webp';
 import './WhyChooseUs.css';
 
 const features = [
@@ -51,6 +51,7 @@ const WhyChooseUs = () => {
                             src={teamImg}
                             alt="Salon environment"
                             loading="lazy"
+                            style={{ width: '100%', height: 'auto', objectFit: 'cover' }}
                         />
                         <div className="experience-badge">
                             <span className="number">15+</span>

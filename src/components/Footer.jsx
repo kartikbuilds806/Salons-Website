@@ -28,10 +28,10 @@ const Footer = () => {
                     <div className="footer-links">
                         <h4>Services</h4>
                         <ul>
-                            <li><a href="#">Bridal Makeup</a></li>
-                            <li><a href="#">Hair Styling</a></li>
-                            <li><a href="#">Skin Treatments</a></li>
-                            <li><a href="#">Nail Extensions</a></li>
+                            <li><a href="#services">Bridal Makeup</a></li>
+                            <li><a href="#services">Hair Styling</a></li>
+                            <li><a href="#services">Skin Treatments</a></li>
+                            <li><a href="#services">Nail Extensions</a></li>
                         </ul>
                     </div>
 
@@ -41,10 +41,7 @@ const Footer = () => {
                             <a href="https://www.instagram.com/mahimakeover_and_academy_?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" rel="noopener noreferrer" className="social-icon" aria-label="Instagram">
                                 <Instagram size={20} />
                             </a>
-                            <a href="#" className="social-icon" aria-label="Facebook">
-                                <Facebook size={20} />
-                            </a>
-                            <a href="https://www.youtube.com/@Stylish_mahi_makeover?si=SwTovwRx1xrJTmO4" target="_blank" rel="noopener noreferrer" className="social-icon" aria-label="YouTube">
+                            <a href="https://youtube.com/@Stylish_mahi_makeover?si=SwTovwRx1xrJTmO4" target="_blank" rel="noopener noreferrer" className="social-icon" aria-label="YouTube">
                                 <Youtube size={20} />
                             </a>
                             <a href="https://wa.me/917500887353" target="_blank" rel="noopener noreferrer" className="social-icon" aria-label="WhatsApp">
