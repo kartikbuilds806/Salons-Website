@@ -7,10 +7,10 @@ import './WhyChooseUs.css';
 const features = [
     { icon: <Award size={40} />, title: "Experienced and skilled staff", text: "" },
     { icon: <ShieldCheck size={40} />, title: "Hygienic and clean environment", text: "" },
-    { icon: <HeartHandshake size={40} />, title: "Friendly customer service", text: "" },
-    { icon: <Clock size={40} />, title: "Affordable pricing", text: "" },
-    { icon: <Sparkles size={40} />, title: "Latest beauty treatments", text: "" },
-    { icon: <UserCheck size={40} />, title: "Personalized care", text: "" }
+    { icon: <HeartHandshake size={40} />, title: "Friendly & Professional Staff", text: "" },
+    { icon: <Clock size={40} />, title: "Value for Money Services", text: "" },
+    { icon: <Sparkles size={40} />, title: "Personalized Beauty Consultation", text: "" },
+    { icon: <UserCheck size={40} />, title: "4.9⭐ Rated by 489+ Clients", text: "" }
 ];
 
 const WhyChooseUs = () => {
@@ -25,7 +25,7 @@ const WhyChooseUs = () => {
                         viewport={{ once: true }}
                         transition={{ duration: 0.6 }}
                     >
-                        <h2>Why Choose Riddhi Makeover Unisex Salon?</h2>
+                        <h2>Why Choose Stylish Mahi Unisex Salon?</h2>
                         <p>
                             We focus on giving every client a comfortable experience with professional results.
                         </p>

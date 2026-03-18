@@ -10,7 +10,7 @@ const Footer = () => {
             <div className="container">
                 <div className="footer-grid">
                     <div className="footer-brand">
-                        <h3>Riddhi Makeover</h3>
+                        <h3>Stylish Mahi</h3>
                         <span>Unisex Salon</span>
                         <p>Your premium destination for luxury styling, professional makeup, and rejuvenating spa treatments. Elevating beauty standards.</p>
                     </div>
@@ -58,7 +58,7 @@ const Footer = () => {
                 </div>
 
                 <div className="footer-bottom">
-                    <p>&copy; {currentYear} Riddhi Makeover Unisex Salon. All rights reserved.</p>
+                    <p>&copy; {currentYear} Stylish Mahi Unisex Salon. All rights reserved.</p>
                 </div>
             </div>
         </footer>

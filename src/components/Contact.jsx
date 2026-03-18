@@ -38,7 +38,7 @@ const Contact = () => {
                             <div className="icon-wrapper"><MapPin size={24} /></div>
                             <div>
                                 <h4>Our Location</h4>
-                                <p>Thapdiyal Department Store, Near Abhinandan Wedding Point,<br />Balawala Road, Ranjhawala, Raipur Of, Dehradun-248008, Uttarakhand</p>
+                                <p>Near Axis Bank, Main Raipur Chowk,<br />Dehradun, Uttarakhand</p>
                             </div>
                         </div>
 
@@ -46,7 +46,7 @@ const Contact = () => {
                             <div className="icon-wrapper"><Phone size={24} /></div>
                             <div>
                                 <h4>Contact Number</h4>
-                                <p><a href="tel:+9106398412288">+91 0639 841 2288</a></p>
+                                <p><a href="tel:+917500887353">+91 7500 887 353</a></p>
                             </div>
                         </div>
 
@@ -75,7 +75,7 @@ const Contact = () => {
                         transition={{ duration: 0.6 }}
                     >
                         <iframe
-                            src="https://maps.google.com/maps?q=Thapdiyal+Department+Store,+Balawala+Road,+Dehradun,+Uttarakhand+248008&t=&z=15&ie=UTF8&iwloc=&output=embed"
+                            src="https://maps.google.com/maps?q=Axis+Bank,+Main+Raipur+Chowk,+Dehradun,+Uttarakhand&t=&z=15&ie=UTF8&iwloc=&output=embed"
                             width="100%"
                             height="100%"
                             style={{ border: 0 }}

@@ -47,9 +47,9 @@ const Booking = () => {
     const handleSubmit = (e) => {
         e.preventDefault();
         const { name, phone, service, date, time } = formData;
-        const message = `Hello Riddhi Makeover! I would like to book an appointment.\n\nName: ${name}\nPhone: ${phone}\nService: ${service}\nDate: ${date}\nTime: ${time}`;
+        const message = `Hello Stylish Mahi Unisex Salon! I would like to book an appointment.\n\nName: ${name}\nPhone: ${phone}\nService: ${service}\nDate: ${date}\nTime: ${time}`;
         const encodedMessage = encodeURIComponent(message);
-        window.open(`https://wa.me/9106398412288?text=${encodedMessage}`, '_blank');
+        window.open(`https://wa.me/917500887353?text=${encodedMessage}`, '_blank');
     };
 
     return (

@@ -4,7 +4,7 @@ import './FloatingWhatsApp.css';
 const FloatingWhatsApp = () => {
     return (
         <a
-            href="https://wa.me/9106398412288?text=Hello%20Riddhi%20Makeover%20Salon!%20I%20would%20like%20to%20book%20an%20appointment."
+            href="https://wa.me/917500887353?text=Hello%20Stylish%20Mahi%20Salon!%20I%20would%20like%20to%20book%20an%20appointment."
             className="floating-wa"
             target="_blank"
             rel="noopener noreferrer"
